@@ -12,7 +12,7 @@
     "repos": {
         "main": {
             "name": "主仓库",
-            "url": "http://192.168.1.57:9088/preview/repo.dat",
+            "url": "https://penghaochen610.github.io/data/preview/repo.dat",
             "alg": "aes256cfb",
             "key": "Q1NJSSBrZXkgZXhhbXBsZQ=="
         }
