@@ -1,0 +1,38 @@
+{
+    "type": "array",
+    "title": "新建布局",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "方案",
+        "headerTemplate": "{{ self.name }}",
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "方案名称"
+            },
+            "type": {
+                "type": "string",
+                "title": "组件类型",
+                "enum": ["titlebar_component", "ad_component", "notice_component", "menu_component", "financial_component", "news_component", "activity_component"],
+                "options": {
+                    "enum_titles": [
+                        "标题栏组件",
+                        "广告组件",
+                        "公告组件",
+                        "菜单组件",
+                        "理财组件",
+                        "资讯组件",
+                        "活动组件"
+                    ]
+                }
+            },
+            "url": {
+                "type": "string",
+                "title": "选择文件",
+                "format": "filechoose"
+            }
+        },
+        "required": ["name", "type", "url"]
+    }
+}

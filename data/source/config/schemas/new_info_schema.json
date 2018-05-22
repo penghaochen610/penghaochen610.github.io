@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "title": "标题栏",
+    "properties": {
+        "title": {
+            "type": "string",
+            "title": "标题",
+            "default": "这里是资讯标题"
+        },
+        "date": {
+            "type": "string",
+            "title": "发布日期",
+            "format": "date"
+        },
+        "note": {
+            "title": "备注",
+            "type": "string",
+            "default": "这里是备注信息"
+        },
+        "contents": {
+            "type": "array",
+            "title": "正文内容",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "正文板块",
+                "properties": {
+                    "img": {
+                        "type": "string",
+                        "format": "filechoose",
+                        "title": "选择图片"
+                    },
+                    "title": {
+                        "type": "string",
+                        "title": "板块标题",
+                        "default": "这里是板块标题"
+                    },
+                    "content": {
+                        "type": "string",
+                        "format": "textarea",
+                        "title": "板块正文",
+                        "default": "这里是板块正文"
+                    }
+                }
+            }
+        }
+    },
+    "required": ["title", "date"]
+}

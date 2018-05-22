@@ -1,0 +1,86 @@
+{
+    "title": "仓库",
+    "type": "object",
+    "properties": {
+        "id": {
+            "title": "仓库ID",
+            "type": "string",
+            "default": "managed"
+        },
+        "name": {
+            "title": "仓库名称",
+            "type": "string",
+            "default": "托管仓库"
+        },
+        "stages": {
+            "title": "场景列表",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "场景",
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "type": "string"
+                    },
+                    "name": {
+                        "title": "名称",
+                        "type": "string",
+                        "default": "场景"
+                    },
+                    "module": {
+                        "title": "模块",
+                        "type": "string",
+                        "default": "weex",
+                        "enum": ["weex", "web"]
+                    },
+                    "path": {
+                        "title": "路径",
+                        "type": "string"
+                    },
+                    "params": {
+                        "title": "参数",
+                        "type": "array",
+                        "format": "table",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "title": "参数项",
+                            "properties": {
+                                "key": {
+                                    "title": "键",
+                                    "type": "string"
+                                },
+                                "value": {
+                                    "title": "值",
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["key", "value"]
+                        }
+                    },
+                    "authcheck": {
+                        "title": "鉴权",
+                        "type": "array",
+                        "format": "table",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "title": "鉴权项",
+                            "properties": {
+                                "item": {
+                                    "title": "表达式",
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["item"]
+                        }
+                    }
+                },
+                "required": ["id", "name", "module"]
+            }
+        }
+    },
+    "required": ["id", "name", "stages"]
+}

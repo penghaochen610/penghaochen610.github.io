@@ -1,0 +1,39 @@
+{
+    "type": "array",
+    "title": "活动列表",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "活动",
+        "headerTemplate": "{{ self.name }}",
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "活动",
+                "default": "活动一"
+            },
+            "title1": {
+                "type": "string",
+                "title": "活动标题1",
+                "default": "缴费新用户0元兑好礼"
+            },
+            "title2": {
+                "type": "string",
+                "title": "活动标题2",
+                "default": "限量好礼 先到先得"
+            },
+            "imgUrl": {
+                "type": "string",
+                "title": "活动icon",
+                "format": "filechoose"
+            },
+            "url": {
+                "type": "string",
+                "title": "活动链接",
+                "format": "url",
+                "default": "http://www.csii.com.cn"
+            }
+        },
+        "required": ["name", "title1", "title2", "imgUrl", "url"]
+    }
+}

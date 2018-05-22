@@ -1,0 +1,50 @@
+{
+    "type": "array",
+    "title": "新增方案",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "方案",
+        "headerTemplate": "{{ self.schemeName }}",
+        "properties": {
+            "schemeName": {
+                "type": "string",
+                "title": "名称",
+                "default": "方案名称"
+            },
+            "componentName": {
+                "type": "string",
+                "title": "名称",
+                "default": "组件名称"
+            },
+            "type": {
+                "type": "string",
+                "title": "类型",
+                "default": "component_menu"
+            },
+            "allowCreate": {
+                "type": "boolean",
+                "title": "是否允许新建",
+                "default": true,
+                "format": "checkbox"
+            },
+            "containLayout": {
+                "type": "boolean",
+                "title": "是否允许包含在布局内",
+                "default": true,
+                "format": "checkbox"
+            },
+            "schemaUrl": {
+                "type": "string",
+                "title": "选择schema",
+                "format": "filechoose"
+            },
+            "templateUrl": {
+                "type": "string",
+                "title": "选择template",
+                "format": "filechoose"
+            }
+        },
+        "required": ["schemeName", "componentName", "type"]
+    }
+}

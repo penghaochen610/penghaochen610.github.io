@@ -1,0 +1,36 @@
+{
+    "$schema": "nav_schema.json",
+    "data": [{
+            "title": "首页",
+            "titleColor": "#0080ff",
+            "image": "./imgs/home_nor.png",
+            "selectedImage": "./imgs/home.png",
+            "layout": "./json/layout.json",
+            "visibility": true
+        },
+        {
+            "title": "理财",
+            "titleColor": "#0080ff",
+            "image": "./imgs/financial_nor.png",
+            "selectedImage": "./imgs/financial.png",
+            "layout": "",
+            "visibility": false
+        },
+        {
+            "title": "银行",
+            "titleColor": "#0080ff",
+            "image": "./imgs/bank_nor.png",
+            "selectedImage": "./imgs/bank.png",
+            "layout": "",
+            "visibility": false
+        },
+        {
+            "title": "我的",
+            "titleColor": "#0080ff",
+            "image": "./imgs/user_nor.png",
+            "selectedImage": "./imgs/user.png",
+            "layout": "",
+            "visibility": false
+        }
+    ]
+}

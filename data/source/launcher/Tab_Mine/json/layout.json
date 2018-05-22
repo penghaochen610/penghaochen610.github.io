@@ -1,0 +1,40 @@
+{
+  "$schema": "layout_schema.json",
+  "data": [
+    {
+      "name": "标题",
+      "type": "titlebar_component",
+      "url": "titlebar.json"
+    },
+    {
+      "name": "广告",
+      "type": "ad_component",
+      "url": "ad.json"
+    },
+    {
+      "name": "公告",
+      "type": "notice_component",
+      "url": "notice.json"
+    },
+    {
+      "name": "菜单",
+      "type": "menu_component",
+      "url": "menu.json"
+    },
+    {
+      "name": "理财",
+      "type": "financial_component",
+      "url": "financial.json"
+    },
+    {
+      "name": "新闻列表",
+      "type": "news_component",
+      "url": "news.json"
+    },
+    {
+      "name": "活动",
+      "type": "activity_component",
+      "url": "activity.json"
+    }
+  ]
+}

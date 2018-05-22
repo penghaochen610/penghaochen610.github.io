@@ -1,0 +1,51 @@
+{
+    "type": "array",
+    "title": "新建菜单",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "菜单",
+        "headerTemplate": "{{ self.name }}",
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "名称",
+                "default": "我的账户"
+            },
+            "rows": {
+                "type": "string",
+                "format": "number",
+                "title": "行数",
+                "default": "1"
+            },
+            "columns": {
+                "type": "string",
+                "format": "number",
+                "title": "列数",
+                "default": "1"
+            },
+            "src": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "图标"
+            },
+            "stage": {
+                "type": "string",
+                "title": "场景",
+                "default": "main.myaccount"
+            },
+            "phoneos": {
+                "type": "string",
+                "title": "选择系统",
+                "enum": ["all", "Android", "iOS"]
+            },
+            "islogin": {
+                "type": "boolean",
+                "title": "是否登录",
+                "default": true,
+                "format": "checkbox"
+            }
+        },
+        "required": ["name", "src", "stage", "phoneos", "islogin"]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "type": "object",
+    "title": "标题栏",
+    "properties": {
+        "title": {
+            "type": "string",
+            "title": "标题",
+            "default": "首页"
+        },
+        "leftElement": {
+            "type": "object",
+            "title": "左侧元素",
+            "properties": {
+                "exist": {
+                    "type": "boolean",
+                    "title": "是否存在",
+                    "default": false,
+                    "format": "checkbox"
+                },
+                "isback": {
+                    "type": "boolean",
+                    "title": "是否返回",
+                    "default": false,
+                    "format": "checkbox"
+                },
+                "location": {
+                    "type": "boolean",
+                    "title": "是否定位",
+                    "default": false,
+                    "format": "checkbox"
+                }
+            }
+        },
+        "rightElement": {
+            "type": "object",
+            "title": "右侧元素",
+            "properties": {
+                "exist": {
+                    "type": "boolean",
+                    "title": "是否存在",
+                    "default": false,
+                    "format": "checkbox"
+                },
+                "QRcode": {
+                    "type": "object",
+                    "title": "二维码",
+                    "properties": {
+                        "exist": {
+                            "type": "boolean",
+                            "title": "是否存在",
+                            "default": false,
+                            "format": "checkbox"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "filechoose",
+                            "title": "选择图片"
+                        },
+                        "id": {
+                            "type": "string",
+                            "title": "id"
+                        }
+                    }
+                }
+            }
+        },
+        "bgcolor": {
+            "title": "背景色",
+            "type": "string",
+            "format": "color",
+            "default": "#ffffff"
+        }
+    },
+    "required": ["title"]
+}

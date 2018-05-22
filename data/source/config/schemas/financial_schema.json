@@ -1,0 +1,86 @@
+{
+    "title": "理财产品",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "新增理财",
+        "headerTemplate": "{{ self.titleText }}",
+        "properties": {
+            "titleText": {
+                "title": "名称",
+                "type": "string",
+                "default": "财富宝"
+            },
+            "url": {
+                "title": "Launch路径",
+                "default": "main.financial?id=caifubao",
+                "format": "url",
+                "type": "string"
+            },
+            "titleTextColor": {
+                "title": "名称字体颜色",
+                "type": "string",
+                "format": "color",
+                "default": "#000000"
+            },
+            "titleTextFont": {
+                "title": "名称字体大小",
+                "type": "string",
+                "format": "integer",
+                "default": "35"
+            },
+            "rateText": {
+                "title": "利率",
+                "type": "string",
+                "default": "4.21%"
+            },
+            "rateTextColor": {
+                "title": "利率字体颜色",
+                "type": "string",
+                "format": "color",
+                "default": "#e3392f"
+            },
+            "rateTextFont": {
+                "title": "利率字体大小",
+                "type": "string",
+                "format": "integer",
+                "default": "60"
+            },
+            "rateDetailText": {
+                "title": "周期",
+                "type": "string",
+                "default": "7日年化"
+            },
+            "rateDetailColor": {
+                "title": "周期字体颜色",
+                "type": "string",
+                "format": "color",
+                "default": "#e3392f"
+            },
+            "rateDetailFont": {
+                "title": "周期字体大小",
+                "type": "string",
+                "format": "integer",
+                "default": "30"
+            },
+            "menuItemText": {
+                "title": "描述",
+                "type": "string",
+                "default": "货币基金  一分起购  低风险"
+            },
+            "menuItemColor": {
+                "title": "描述字体颜色",
+                "type": "string",
+                "format": "color",
+                "default": "#999999"
+            },
+            "menuItemFont": {
+                "title": "描述字体大小",
+                "type": "string",
+                "format": "integer",
+                "default": "25"
+            }
+        }
+    }
+}

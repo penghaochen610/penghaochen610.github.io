@@ -1,0 +1,41 @@
+{
+    "$schema": "latesrdiscount_schema.json",
+    "data": [{
+            "name": "优惠活动1",
+            "src": "lists/banner1.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"三一电商节-工程机械人自己的购物节"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "lists/banner2.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"27万三一重卡，限量销售"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "lists/banner1.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"27万三一重卡，限量销售"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "lists/banner2.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"27万三一重卡，限量销售"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "lists/banner1.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"27万三一重卡，限量销售"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "lists/banner2.png",
+            "url": "http://www.csii.com.cn",
+            "desc":"27万三一重卡，限量销售"
+        }
+    ],
+    "bottomImage":"bottom_logo@2x.png"
+}

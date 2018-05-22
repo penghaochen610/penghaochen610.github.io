@@ -1,0 +1,28 @@
+{
+    "app_name": "科蓝移动银行",
+    "prefetch_interval": 10,
+    "chains": {
+        "startup": ["main.splashscreen", "main.launcher"]
+    },
+    "auth_stages": {
+        "login": "main.login",
+        "sleep": "main.lock",
+        "wakeup": "main.unlock"
+    },
+    "repos": {
+        "main": {
+            "name": "主仓库",
+            "url": "http://192.168.1.57:9088/preview/repo.dat",
+            "alg": "aes256cfb",
+            "key": "Q1NJSSBrZXkgZXhhbXBsZQ=="
+        }
+    },
+    "hosts": {
+        "trusted": ["https://demo.madp.tech/qrcb/", "https://mob.csii.com.cn/", "https://demo-gateway.madp.tech:9443/"],
+        "allowed": ["//demo.madp.tech/", "//demo-gateway.madp.tech/", ".csii.com.cn", "//10.1.1."],
+        "map": {
+            "/pmobile/": "http://47.94.122.94:83/pweb/",
+            "/uauth/": "http://47.94.122.94:83/pweb/"
+        }
+    }
+}

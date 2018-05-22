@@ -1,0 +1,14 @@
+{
+    "$schema": "template_ad",
+    "data": [{
+            "name": "优惠活动1",
+            "src": "banner/banner1.png",
+            "url": "http://www.csii.com.cn"
+        },
+        {
+            "name": "优惠活动2",
+            "src": "banner/banner2.png",
+            "url": "http://www.csii.com.cn"
+        }
+    ]
+}

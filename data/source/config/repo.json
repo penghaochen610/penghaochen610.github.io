@@ -1,0 +1,287 @@
+{
+    "url": "./",
+    "stages": {
+        "launcher": {
+            "name": "加载器",
+            "module": "weex",
+            "path": "./launcher/index.weex.js",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "splashscreen": {
+            "name": "闪屏",
+            "module": "weex",
+            "path": "./splashscreen/index.weex.js",
+            "params": {
+                "duration": "5",
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "Login": {
+            "name": "登录",
+            "module": "weex",
+            "path": "./login/index.weex.js",
+            "params": {
+                "duration": "5",
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "branch": {
+            "name": "网点分布",
+            "module": "web",
+            "path": "./vue/index.html#/branch",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "contactUs": {
+            "name": "联系我们",
+            "module": "web",
+            "path": "./vue/index.html#/contactUs",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "productIntroductions": {
+            "name": "产品介绍",
+            "module": "web",
+            "path": "./vue/index.html#/productIntroductions",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "activities": {
+            "name": "最新优惠活动详情",
+            "module": "web",
+            "path": "./vue/index.html#/activities",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "lists": {
+            "name": "待办清单",
+            "module": "web",
+            "path": "./vue/index.html#/lists",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "BasicInfo": {
+            "name": "业务申请",
+            "module": "web",
+            "path": "./vue/index.html#/BasicInfo",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "EBasicInfo": {
+            "name": "业务申请",
+            "module": "web",
+            "path": "./vue/index.html#/EBasicInfo",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "CreditQry": {
+            "name": "征信申请",
+            "module": "web",
+            "path": "./vue/index.html#/CreditQry",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "billSummary": {
+            "name": "账单查询",
+            "module": "web",
+            "path": "./vue/index.html#/billSummary",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "ContractQry": {
+            "name": "合同查询",
+            "module": "web",
+            "path": "./vue/index.html#/ContractQry",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "contractTemplate": {
+            "name": "面签",
+            "module": "web",
+            "path": "./vue/index.html#/face/contractTemplate",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "detail": {
+            "name": "预约详情",
+            "module": "web",
+            "path": "./vue/index.html#/buycar/detail",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "progressquery": {
+            "name": "进度查询",
+            "module": "web",
+            "path": "./vue/index.html#/progressquery",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "creditquery": {
+            "name": "征信查询",
+            "module": "web",
+            "path": "./vue/index.html#/creditquery",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "loan": {
+            "name": "贷款试算",
+            "module": "web",
+            "path": "./vue/index.html#/loan/loantrial",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "fingerprint": {
+            "name": "指纹密码修改",
+            "module": "web",
+            "path": "./vue/index.html#/mine/fingerprint",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "gesture": {
+            "name": "手势密码修改",
+            "module": "web",
+            "path": "./vue/index.html#/mine/gesture",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "loginChange": {
+            "name": "登录密码修改",
+            "module": "web",
+            "path": "./vue/index.html#/mine/loginChange",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "emailChange": {
+            "name": "邮箱修改",
+            "module": "web",
+            "path": "./vue/index.html#/mine/emailChange",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "phoneChange": {
+            "name": "手机号修改",
+            "module": "web",
+            "path": "./vue/index.html#/mine/phoneChange",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        },
+        "about": {
+            "name": "关于我们",
+            "module": "web",
+            "path": "./vue/index.html#/AboutUs/about",
+            "params": {
+                "x-fullscreen": "yes"
+            },
+            "preferences": {},
+            "icon": "icon.png",
+            "auth_check": []
+        }
+        
+
+
+
+    },
+    "resource_rules": {
+        "alg": "aes256cfb",
+        "key": "Q1NJSSBrZXkgZXhhbXBsZQ==",
+        "repo_includes": [],
+        "repo_excludes": ["^repo.json$", "^repo.dat$", "\.DS_Store$", "\.go$"],
+        "cache_includes": [],
+        "cache_excludes": ["\.do$", "\.do\\?"],
+        "cache_ttl": 72,
+        "prefetch_includes": [],
+        "prefetch_excludes": [],
+        "prefetch_interval": 10
+    }
+}

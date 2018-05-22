@@ -1,0 +1,44 @@
+{
+    "type": "array",
+    "title": "新建导航",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "导航",
+        "headerTemplate": "{{ self.title }}",
+        "properties": {
+            "title": {
+                "type": "string",
+                "title": "导航名称",
+                "default": "首页"
+            },
+            "titleColor": {
+                "type": "string",
+                "format": "color",
+                "title": "选中颜色"
+            },
+            "image": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "导航图片"
+            },
+            "selectedImage": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "导航选中图片"
+            },
+            "layout": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "选择文件"
+            },
+            "visibility": {
+                "type": "boolean",
+                "title": "是否可见",
+                "default": false,
+                "format": "checkbox"
+            }
+        },
+        "required": ["title", "titleColor", "image", "selectedImage", "layout"]
+    }
+}

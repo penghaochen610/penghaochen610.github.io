@@ -1,0 +1,85 @@
+{
+    "title": "菜单",
+    "type": "object",
+    "properties": {
+        "menuList": {
+            "title": "常用菜单列表",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "菜单",
+                "headerTemplate": "{{ self.name }}",
+                "properties": {
+                    "url": {
+                        "title": "URL",
+                        "description": "菜单URL用于场景跳转，URL需和场景名对应",
+                        "type": "string"
+                    },
+                    "name": {
+                        "title": "菜单名称",
+                        "type": "string",
+                        "default": "菜单"
+                    },
+                    "src": {
+                        "type": "string",
+                        "format": "filechoose",
+                        "title": "菜单图片"
+                    }
+                }
+            }
+        },
+        "backgroundColor": {
+            "title": "组件背景色",
+            "type": "string",
+            "format": "color",
+            "default": "#ffffff"
+        },
+        "imgSize": {
+            "title": "菜单图片大小(px)",
+            "type": "object",
+            "properties": {
+                "imgWidth": {
+                    "title": "宽度(px)",
+                    "type": "integer",
+                    "default": 60,
+                    "minimum": 0
+                },
+                "imgHeight": {
+                    "title": "高度",
+                    "type": "integer",
+                    "default": 60,
+                    "minimum": 0
+                }
+            }
+        },
+        "fontSize": {
+            "title": "菜单字体大小(px)",
+            "type": "integer",
+            "default": 26
+        },
+        "fontColor": {
+            "title": "菜单字体颜色",
+            "type": "string",
+            "format": "color",
+            "default": "#333333"
+        },
+        "columns": {
+            "title": "每行菜单个数",
+            "type": "integer",
+            "enum": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "default": 4
+        }
+    }
+}

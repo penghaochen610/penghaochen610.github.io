@@ -1,0 +1,29 @@
+{
+    "type": "array",
+    "title": "新建广告",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "广告",
+        "headerTemplate": "{{ self.name }}",
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "广告名称",
+                "default": "优惠活动"
+            },
+            "src": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "广告图片"
+            },
+            "url": {
+                "type": "string",
+                "title": "广告链接",
+                "default": "http://www.csii.com.cn",
+                "format": "url"
+            }
+        },
+        "required": ["src", "name", "url"]
+    }
+}

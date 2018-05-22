@@ -1,0 +1,28 @@
+{
+    "type": "array",
+    "title": "资讯列表",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "title": "资讯",
+        "headerTemplate": "{{ self.title }}",
+        "properties": {
+            "title": {
+                "type": "string",
+                "title": "资讯标题",
+                "default": "资讯标题"
+            },
+            "date": {
+                "type": "string",
+                "title": "日期",
+                "format": "date"
+            },
+            "img": {
+                "type": "string",
+                "format": "filechoose",
+                "title": "资讯图片"
+            }
+        },
+        "required": ["title", "date", "img"]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "rowNum": "2",
+    "colNum": "4",
+    "list": [{
+            "src": "menu/account.png",
+            "id": "main.myaccount",
+            "name": "我的账户"
+        },
+        {
+            "src": "menu/transfer.png",
+            "id": "main.transfer",
+            "name": "转账汇款"
+        },
+        {
+            "src": "menu/invest.png",
+            "id": "main.financiallist",
+            "name": "理财投资"
+        },
+        {
+            "src": "menu/recharge.png",
+            "id": "",
+            "name": "手机充值"
+        }, {
+            "src": "menu/bill.png",
+            "id": "",
+            "name": "账单查询"
+        },
+        {
+            "src": "menu/pay.png",
+            "id": "main.lifepay",
+            "name": "生活缴费"
+        }, {
+            "src": "menu/loan.png",
+            "id": "",
+            "name": "贷款业务"
+        },
+        {
+            "src": "menu/earning.png",
+            "id": "",
+            "name": "资金归集"
+        }
+    ]
+}

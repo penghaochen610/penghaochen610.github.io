@@ -1,0 +1,44 @@
+{
+    "$schema": "navbar_schema.json",
+    "data": [{
+        "name": "三一重卡",
+        "id"  :0,
+        "title-color":"#000000"
+       },
+       {
+        "name": "混泥土机械",
+        "id"  :1,
+        "title-color":"#333333"
+       },
+       {
+        "name": "挖掘机",
+        "id"  :2,
+        "title-color":"#333333"
+       },
+       {
+        "name": "起重机",
+        "id"  :3,
+        "title-color":"#333333"
+       },
+       {
+        "name": "筑路机械",
+        "id"  :4,
+        "title-color":"#333333"
+       },
+       {
+        "name": "混泥土机械",
+        "id"  :5,
+        "title-color":"#333333"
+       },
+       {
+        "name": "三一重卡",
+        "id"  :6,
+        "title-color":"#333333"
+       },
+       {
+        "name": "混泥土机械",
+        "id"  :7,
+        "title-color":"#333333"
+       }
+   ]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "新建公告",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "title": "公告标题",
+            "minLength": 4,
+            "default": "科蓝头条"
+        },
+        "duration": {
+            "type": "string",
+            "format": "integer",
+            "default": 3000,
+            "minimum": 1,
+            "title": "持续时间"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "format": "color",
+            "title": "背景颜色",
+            "default": "#ffffff"
+        },
+        "marqueelist": {
+            "type": "array",
+            "title": "消息列表",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "消息内容",
+                "properties": {
+                    "list": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "format": "url"
+                    }
+                }
+            },
+            "default": [{
+                "list": "科蓝移动金融",
+                "url": "http://www.csii.com.cn"
+            }]
+        }
+    }
+}

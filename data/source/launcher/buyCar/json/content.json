@@ -1,0 +1,40 @@
+{
+    "$schema": "content_schema.json",
+    "data": [{
+        "pic_addr": "car.png",
+        "car_brief": "C8系列30米混泥土泵车",
+        "type": "SYM5180THBES 30C-8",
+        "appoint_num": "1787"
+    },
+    {
+        "pic_addr": "car.png",
+        "car_brief": "C6车载泵SY5128TH",
+        "type": "B-9014C-6E",
+        "appoint_num": "1798"
+    },
+    {
+        "pic_addr": "car.png",
+        "car_brief": "V8搅拌车SY204 V8(Ⅳ)",
+        "type": "SYM5180THBES 30C-8",
+        "appoint_num": "1000"
+    },
+    {
+        "pic_addr": "car.png",
+        "car_brief": "C系列搅拌车SY204",
+        "type": "SYM5180THBES 30C-8",
+        "appoint_num": "1200"
+    },
+    {
+        "pic_addr": "car.png",
+        "car_brief": "C6车载泵SY5133TH",
+        "type": "B-9022C-6GD",
+        "appoint_num": "1000"
+    },
+    {
+        "pic_addr": "car.png",
+        "car_brief": "C8系列30米混泥土泵车",
+        "type": "SYM5180THBES 30C-8",
+        "appoint_num": "1200"
+    }
+]
+}
